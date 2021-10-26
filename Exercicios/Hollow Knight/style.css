@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root {
+    --black: #000000;
+    --font: #F2F2F2;
+}
+body {
+    display: flex;
+    justify-content: center;
+    background: var(--black);
+    min-width: 100vw;
+    min-height: 100vh;
+    color: var(--font);
+    overflow-x: hidden;
+}
+section {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.imgback {
+    position: absolute;
+    background-image: url(img/promo_collection_banner.png);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    z-index: -1;
+}
+header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-top: 40px;
+}
+header .logo img{
+    position: relative;
+    top: 20px;
+    max-width: 70px;
+}
+header ul {
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+header ul li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 30px;
+}
+header ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--font);
+    font-weight: 600;
+    font-size: 1.5em;
+}
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+.logo_game {
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.about {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-right: 60px;
+    padding-left: 60px;
+    margin: 0 auto;
+}
+.about h1 {
+    font-weight: 500;
+    font-size: calc(2.5rem);
+    text-align: center;
+    margin-bottom: 30px;
+}
+.imgtext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.screenshot img{
+    width: 630px;
+}
+.text {
+    margin-left: 140px;
+}
+.text h2 {
+    font-size: calc(2 * 1rem);
+    font-weight: 500;
+}
+.text div {
+    margin-top: 6%;
+}
+.text div p {
+    font-size: 14px;
+    font-weight: 300;
+}
+.text div .p2 {
+    margin-top: 14px;
+}
+.text2 {
+    margin-right: 140px;
+    
+}
+.text2 h2 {
+    font-size: calc(2 * 1rem);
+    font-weight: 500;
+}
+.text2 div {
+    margin-top: 6%;
+}
+.text2 div p {
+    font-size: 14px;
+    font-weight: 300;
+}
+.text2 div ul {
+    font-size: 14px;
+    margin-top: 14px;
+    margin-left: 40px;
+}
+#trailer {
+    margin-top: 40px;
+    padding: 50px;
+    padding-left: 0;
+    padding-right: 0;
+}
