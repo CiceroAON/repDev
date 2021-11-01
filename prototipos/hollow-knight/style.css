@@ -89,6 +89,9 @@ header ul li a {
     margin-top: 100px;
     margin-bottom: 200px;
 }
+.logo_game img{
+    width: 100%;
+}
 .about {
     margin-top: 50px;
     display: flex;
@@ -159,4 +162,16 @@ header ul li a {
 #trailer iframe {
     width: inherit;
     height: 787px;
+}
+
+/*----Responsividade-----*/
+
+@media (max-width: 1200px) {
+    .logo_game{
+        padding: 50px;
+    }
+    .imgback {
+        background-image: none;
+    }
+    
 }
