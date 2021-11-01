@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*Ginto-Nord, Ginto, Whitney*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    min-width: 100vw;
+}
+#part1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.back_decoration {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 650px;
+    z-index: -1;
+    background-color: #404EED;
+}
+.backimage {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-left: -350px;
+}
+.imgleft {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1030px;
+}
+.imgright {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: 370px;
+}
+header {
+    display: flex;
+    padding: 30px;
+    margin: 0 auto;
+    width: 80%;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo-3LF899 {
+    fill: white;
+}
+.list ul {
+    display: flex;
+    list-style: none;
+    font-size: 0.9em;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+.list ul li {
+    margin-right: 30px;
+}
+.list ul li a{
+    text-decoration: none;
+    color: white;
+}
+.button {
+    background-color: white;
+    padding: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+.button a {
+    color: black;
+    text-decoration: none;
+    font-size: 0.8em;
+    transition: 0.5s;
+}
+.button:hover {
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.button:hover a {
+    color: #404EED;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+#intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    padding: 100px;
+}
+#intro h1 {
+    color: white;
+    font-size: 4em;
+    width: 400px;
+    text-align: center;
+    line-height: 1em;
+}
+#intro p {
+    color: white;
+    width: 700px;
+    text-align: center;
+    margin-top: 30px;
+}
