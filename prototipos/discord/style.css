@@ -7,7 +7,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body {
-    min-width: 100vw;
+    width: 100vw;
 }
 #part1 {
     display: flex;
@@ -22,12 +22,14 @@ body {
     height: 650px;
     z-index: -1;
     background-color: #404EED;
+    overflow-x: hidden;
 }
 .backimage {
     position: absolute;
-    left: 0;
+    left: 50%;
     bottom: 0;
-    margin-left: -350px;
+    margin-left: -1280px;
+    vertical-align: baseline;
 }
 .imgleft {
     position: absolute;
@@ -73,16 +75,16 @@ header {
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 50px;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 .button a {
     color: black;
     text-decoration: none;
     font-size: 0.8em;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 .button:hover {
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.3);
 }
 .button:hover a {
     color: #404EED;
@@ -109,4 +111,65 @@ header {
     width: 700px;
     text-align: center;
     margin-top: 30px;
+    margin-bottom: 30px;
+}
+#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.download {
+    cursor: pointer;
+    background-color: white;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
+    transition: 0.3s;
+}
+.download:hover {
+    box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.3);
+}
+.download a svg {
+    margin-right: 5px;
+    transition: 0.3s;
+}
+.download:hover a svg {
+    fill: #404EED;
+}
+.download a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.download:hover a {
+    color: #404EED;
+}
+.navegator {
+    cursor: pointer;
+    background-color: #23272a;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.navegator:hover {
+    background-color: #2c2e30;
+    box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.3);
+}
+.navegator a {
+    color: white;
+    text-decoration: none;
 }
