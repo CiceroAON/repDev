@@ -8,6 +8,7 @@
 }
 body {
     width: 100vw;
+    overflow-x: hidden;
 }
 #part1 {
     display: flex;
@@ -18,6 +19,7 @@ body {
 .back_decoration {
     position: absolute;
     top: 0;
+    left: 0;
     width: 100%;
     height: 650px;
     z-index: -1;
@@ -175,4 +177,36 @@ header {
 .navegator a {
     color: white;
     text-decoration: none;
+}
+#part2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+#contentblock {
+    width: 80%;
+    padding: 120px;
+    padding-right: 150px;
+    padding-left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.boxtext {
+    width: 390px;
+}
+.boxtext h2{
+    color: #23272a;
+    font-size: 3em;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+}
+.boxtext p {
+    color: #23272a;
+    font-size: 1.1em;
+    line-height: 1.6em;
 }
