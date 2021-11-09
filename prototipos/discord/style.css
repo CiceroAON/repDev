@@ -75,14 +75,14 @@ header {
     text-decoration: underline;
 }
 .button {
+    display: flex;
+    align-items: center;
     background-color: white;
-    padding: 6px;
+    padding: 10px;
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 50px;
     transition: 0.3s;
-}
-.button a {
     color: black;
     text-decoration: none;
     font-size: 0.8em;
@@ -91,7 +91,7 @@ header {
 .button:hover {
     box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.3);
 }
-.button:hover a {
+.button:hover {
     color: #404EED;
     text-decoration: none;
     font-size: 0.8em;
@@ -302,3 +302,93 @@ header {
 .download2:hover {
     box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.3);
 }
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #23272A;
+    width: 100%;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    width: 70%;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.RedesSociais h3{
+    font-size: 2.2em;
+    width: 250px;
+    color: #5865F2;
+    margin-bottom: 0.5em;
+}
+.RedesSociais button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.RedesSociais button .br {
+    width: 2em;
+    margin-right: 10px;
+}
+.RedesSociais button p {
+    color: white;
+    margin-right: 10px;
+}
+.RedesSociais ul{
+    display: flex;
+    list-style: none;
+    margin-top: 1em;
+}
+.RedesSociais ul li {
+    margin-right: 2em;
+}
+.RedesSociais ul li a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+}
+.links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding-top: 10px;
+}
+.links ul {
+    list-style: none;
+}
+.links ul li {
+    color: #404EED;
+    font-size: 0.9em;
+    margin-bottom: 0.9em;
+}
+.links ul li a {
+    text-decoration: none;
+    color: white;
+}
+.links ul li a:hover {
+    text-decoration: underline;
+
+}
+.finalpage {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-top: 1px solid #404EED;
+}
+.finalpage .button {
+    background-color: #5865F2;
+    color: white;
+}
+.finalpage .button:hover {
+    background-color: #7983F5;
+    color: white;
+}
+
+
