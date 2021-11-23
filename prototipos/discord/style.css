@@ -390,5 +390,25 @@ footer {
     background-color: #7983F5;
     color: white;
 }
+/*------------Responsive-----------*/
 
-
+@media (max-width:1600px) {
+    .boxtext h2 {
+        font-size: 2.5em;
+    }
+}
+@media (max-width: 1400px) {
+    #contentblock {
+        flex-direction: column;
+    }
+}
+@media (max-width: 1200px) {
+    .footer, .finalpage {
+        width: 80%;
+    }
+}
+@media (max-width: 1000px) {
+    .footer, .finalpage {
+        width: 90%;
+    }
+}
